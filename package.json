@@ -9,7 +9,8 @@
     "build:dev": "cd ./frontend && env-cmd -f ../.env.development npm run build && cd .. &&  npm run copy",
     "build:prod": "cd ./frontend && env-cmd -f ../.env.prod npm run build && cd .. &&  npm run copy",
     "postinstall": "(cd frontend && npm install); (cd backend && npm install);",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "cd backend && node app.js"
   },
   "author": "",
   "license": "ISC",
