@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "http://localhost:9000/static/css/main.04f34cde.chunk.css",
-    "main.js": "http://localhost:9000/static/js/main.133d41ba.chunk.js",
-    "main.js.map": "http://localhost:9000/static/js/main.133d41ba.chunk.js.map",
-    "runtime-main.js": "http://localhost:9000/static/js/runtime-main.a5c7ce9b.js",
-    "runtime-main.js.map": "http://localhost:9000/static/js/runtime-main.a5c7ce9b.js.map",
-    "static/css/2.9082872e.chunk.css": "http://localhost:9000/static/css/2.9082872e.chunk.css",
-    "static/js/2.067498b9.chunk.js": "http://localhost:9000/static/js/2.067498b9.chunk.js",
-    "static/js/2.067498b9.chunk.js.map": "http://localhost:9000/static/js/2.067498b9.chunk.js.map",
-    "static/js/3.8a0f3a25.chunk.js": "http://localhost:9000/static/js/3.8a0f3a25.chunk.js",
-    "static/js/3.8a0f3a25.chunk.js.map": "http://localhost:9000/static/js/3.8a0f3a25.chunk.js.map",
-    "index.html": "http://localhost:9000/index.html",
-    "static/css/2.9082872e.chunk.css.map": "http://localhost:9000/static/css/2.9082872e.chunk.css.map",
-    "static/css/main.04f34cde.chunk.css.map": "http://localhost:9000/static/css/main.04f34cde.chunk.css.map",
-    "static/js/2.067498b9.chunk.js.LICENSE.txt": "http://localhost:9000/static/js/2.067498b9.chunk.js.LICENSE.txt"
+    "main.css": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/css/main.04f34cde.chunk.css",
+    "main.js": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/main.6ce957d5.chunk.js",
+    "main.js.map": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/main.6ce957d5.chunk.js.map",
+    "runtime-main.js": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/runtime-main.7f2124a7.js",
+    "runtime-main.js.map": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/runtime-main.7f2124a7.js.map",
+    "static/css/2.9082872e.chunk.css": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/css/2.9082872e.chunk.css",
+    "static/js/2.067498b9.chunk.js": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/2.067498b9.chunk.js",
+    "static/js/2.067498b9.chunk.js.map": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/2.067498b9.chunk.js.map",
+    "static/js/3.8a0f3a25.chunk.js": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/3.8a0f3a25.chunk.js",
+    "static/js/3.8a0f3a25.chunk.js.map": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/3.8a0f3a25.chunk.js.map",
+    "index.html": "https://vaibhavtiwari12.github.io/pokepedia-sample/index.html",
+    "static/css/2.9082872e.chunk.css.map": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/css/2.9082872e.chunk.css.map",
+    "static/css/main.04f34cde.chunk.css.map": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/css/main.04f34cde.chunk.css.map",
+    "static/js/2.067498b9.chunk.js.LICENSE.txt": "https://vaibhavtiwari12.github.io/pokepedia-sample/static/js/2.067498b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5c7ce9b.js",
+    "static/js/runtime-main.7f2124a7.js",
     "static/css/2.9082872e.chunk.css",
     "static/js/2.067498b9.chunk.js",
     "static/css/main.04f34cde.chunk.css",
-    "static/js/main.133d41ba.chunk.js"
+    "static/js/main.6ce957d5.chunk.js"
   ]
 }

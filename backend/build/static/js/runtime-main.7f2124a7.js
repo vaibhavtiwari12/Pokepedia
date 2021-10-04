@@ -1,15 +1,15 @@
 !(function (e) {
   function t(t) {
     for (
-      var n, a, i = t[0], c = t[1], l = t[2], s = 0, p = [];
-      s < i.length;
-      s++
+      var n, a, i = t[0], c = t[1], l = t[2], p = 0, s = [];
+      p < i.length;
+      p++
     )
-      (a = i[s]),
-        Object.prototype.hasOwnProperty.call(o, a) && o[a] && p.push(o[a][0]),
+      (a = i[p]),
+        Object.prototype.hasOwnProperty.call(o, a) && o[a] && s.push(o[a][0]),
         (o[a] = 0);
     for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
-    for (f && f(t); p.length; ) p.shift()();
+    for (f && f(t); s.length; ) s.shift()();
     return u.push.apply(u, l || []), r();
   }
   function r() {
@@ -124,7 +124,7 @@
     (a.o = function (e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (a.p = "http://localhost:9000/"),
+    (a.p = "https://vaibhavtiwari12.github.io/pokepedia-sample/"),
     (a.oe = function (e) {
       throw (console.error(e), e);
     });
@@ -135,4 +135,4 @@
   var f = c;
   r();
 })([]);
-//# sourceMappingURL=runtime-main.a5c7ce9b.js.map
+//# sourceMappingURL=runtime-main.7f2124a7.js.map
