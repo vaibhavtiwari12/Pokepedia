@@ -7,6 +7,7 @@ const initial_state = {
   sortBy: "Name",
   searchTerm: "",
   searchType: "",
+  noResultFound: false,
 };
 
 const pokemonReducer = (state = initial_state, action) => {
@@ -89,6 +90,11 @@ const pokemonReducer = (state = initial_state, action) => {
       return {
         ...state,
         searchType: action.data,
+      };
+    case "SET_NO_RESULT_FOUND":
+      return {
+        ...state,
+        noResultFound: action.data,
       };
     default:
       return initial_state;

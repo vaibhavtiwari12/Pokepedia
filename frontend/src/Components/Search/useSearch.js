@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   clearAllPokemons,
   doSaveDisplayedCards,
+  doSetNoResultFound,
   doSetSearchTerm,
   doSetSearchType,
 } from "../../Actions/actions";
@@ -54,7 +55,8 @@ const useSearch = () => {
       true,
       true
     );
-    doSetSearchTerm(dispatch, searchTerm);
+    doSetSearchTerm(dispatch, "");
+    doSetNoResultFound(dispatch, false);
     doSetSearchType(dispatch, searchType);
   };
   const handleSubmit = async (event) => {
@@ -79,11 +81,17 @@ const useSearch = () => {
       const filteredPokemon = pokemons.filter((pokemon) => {
         return pokemon.name.toLowerCase() === term.toLowerCase();
       });
+      if (filteredPokemon.length === 0) {
+        doSetNoResultFound(dispatch, true);
+      }
       doSaveDisplayedCards(dispatch, filteredPokemon);
     } else if (searchType === "Ability") {
       const filteredPokemon = pokemons.filter((pokemon) => {
         return pokemon.abilities.includes(term.toLowerCase());
       });
+      if (filteredPokemon.length === 0) {
+        doSetNoResultFound(dispatch, true);
+      }
       doSaveDisplayedCards(dispatch, filteredPokemon);
     }
   };

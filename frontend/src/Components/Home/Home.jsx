@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { clearDisplayCards } from "../../Actions/actions";
+import { clearDisplayCards, doSetNoResultFound } from "../../Actions/actions";
 import Cards from "../Cards/Cards";
 import Limit from "../Limit/Limit";
 import NavBar from "../NavBar/NavBar";
@@ -16,6 +16,7 @@ const Home = () => {
   useEffect(() => {
     if (searchTerm === "") {
       const fetchData = async () => {
+        doSetNoResultFound(dispatch, false);
         clearDisplayCards(dispatch);
         await getAllPokemonBasicData(
           dispatch,

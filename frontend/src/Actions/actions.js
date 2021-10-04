@@ -64,3 +64,9 @@ export const doSetSearchType = (dispatch, searchType) => {
     data: searchType,
   });
 };
+export const doSetNoResultFound = (dispatch, noResultFound) => {
+  dispatch({
+    type: "SET_NO_RESULT_FOUND",
+    data: noResultFound,
+  });
+};
