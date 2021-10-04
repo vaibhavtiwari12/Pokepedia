@@ -1,5 +1,8 @@
 ﻿# **POKEPEDIA**
 
+**NOTE** : Due to the time constraint, I was not able to come up with the unit test, however, I have another repository with an application, that can demostrate my unit testing skills :
+[Unit Test Skill reporsitory](https://github.com/vaibhavtiwari12/Avalon-Bowling-Arena)
+
 ## **Introduction**
 
 Pokepedia is a MERN applicaiton based on a React- Express framework made by me - Avalon.
