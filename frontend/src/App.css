@@ -1,0 +1,6 @@
+.application {
+  margin: 2em !important;
+}
+* {
+  text-transform: capitalize;
+}
