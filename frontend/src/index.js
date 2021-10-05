@@ -27,7 +27,7 @@ const persistConfig = {
 };
 
 export const history = createBrowserHistory();
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers = compose;
 
 const persistedReducer = persistReducer(
   persistConfig,
