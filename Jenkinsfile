@@ -33,6 +33,13 @@ pipeline {
         bat 'npm run build:prod'
       }
     }
-    
+    stage('Deploy') {
+      steps {
+        // Deploy the application
+        // Replace the commands below with your deployment script/commands
+        bat 'npm install -g pm2' // Install process manager if needed
+        bat 'pm2 restart app.js' // Restart the Node.js application
+      }
+    }
   }
 }
