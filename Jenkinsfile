@@ -38,7 +38,7 @@ pipeline {
         // Deploy the application
         // Replace the commands below with your deployment script/commands
         bat 'npm install -g pm2' // Install process manager if needed
-        bat 'C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\pm2\\bin\\pm2.cmd restart app.js' // Restart the Node.js application
+        bat 'pm2 restart app.js' // Restart the Node.js application
       }
     }
   }
