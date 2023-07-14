@@ -1,6 +1,8 @@
 pipeline {
   agent any
-  
+  environment {
+    HUSKY_SKIP_INSTALL = 1
+  }
   stages {
     stage('Checkout') {
       steps {
