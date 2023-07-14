@@ -5,15 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install-main": "npm install",
-    "install-frontend": "npm install --prefix frontend",
-    "install-backend": "npm install --prefix backend",
     "start-frontend": "npm start --prefix backend",
     "start-backend": "npm start --prefix frontend",
     "copy": "shx rm -rf ./backend/build && shx mkdir -p ./backend/build && shx cp -r ./frontend/build/* ./backend/build/",
     "build:dev": "cd ./frontend && env-cmd -f ../.env.development npm run build && cd .. &&  npm run copy",
     "build:prod": "cd ./frontend && env-cmd -f ../.env.prod npm run build && cd .. &&  npm run copy",
-    "postinstall": "npm run install-main && npm run install-frontend && npm run install-backend",
     "dev-start": "concurrently -n 'Frontend,Backend' -c 'green,blue' \"npm:start-frontend\" \"npm:start-backend\"",
     "prepare": "husky install",
     "start": "cd backend && node app.js"
@@ -24,6 +20,7 @@
     "concurrently": "^7.0.0",
     "dotenv": "^10.0.0",
     "env-cmd": "^10.1.0",
+    "main": "^1000.0.1",
     "redux-thunk": "^2.3.0",
     "shx": "^0.3.3"
   },
