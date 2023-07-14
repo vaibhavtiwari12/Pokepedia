@@ -26,8 +26,7 @@
     "start": "env-cmd -f ../.env.development react-scripts start",
     "build": "react-scripts build && compress-cra ",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
