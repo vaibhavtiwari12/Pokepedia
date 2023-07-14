@@ -15,12 +15,12 @@ pipeline {
         tool 'Node.js'
         
         // Install project dependencies
-        sh 'npm install'
+        bat 'npm install'
         dir("frontend") {
-            sh "npm install"
+            bat "npm install"
         }
         dir("backend") {
-            sh "npm install"
+            bat "npm install"
         }
       }
     }
@@ -28,7 +28,7 @@ pipeline {
     stage('Build') {
       steps {
         // Build the application
-        sh 'npm run build:prod'
+        bat 'npm run build:prod'
       }
     }
     
